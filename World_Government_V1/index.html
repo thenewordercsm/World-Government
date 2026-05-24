@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>World Government Explorer</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">▽</div>
+
+<div class="top-nav">
+
+<a href="index.html">Home</a>
+
+<a href="map.html">Map</a>
+
+<a href="The_New_Order_Manifesto_v0.1.pdf">Manifesto</a>
+
+<a href="join.html">Join</a>
+
+<a href="roadmap.html">Roadmap</a>
+
+</div>
+
+<h1>WORLD GOVERNMENT</h1>
+
+<p class="tagline">
+Explore A Possible Future Civilization
+</p>
+
+<input
+type="text"
+placeholder="Search Department"
+class="search-bar">
+
+</nav>
+
+
+
+<section class="hero">
+
+<h2>
+Start Here
+</h2>
+
+<p>
+New to The New Order?
+Read the Manifesto, Explore the Government Map,
+and Join the Movement.
+</p>
+
+<br>
+
+<a href="The_New_Order_Manifesto_v0.1.pdf" class="btn">
+📖 Read Manifesto
+</a>
+
+<a href="map.html" class="btn">
+🌐 Explore Map
+</a>
+
+<a href="join.html" class="btn join-btn">
+🤝 Join
+</a>
+
+
+
+</section>
+<section class="departments">
+
+<a href="food.html" class="card">
+<div class="icon">🍎</div>
+<h3>Food</h3>
+<p>Food Security Systems</p>
+</a>
+
+<a href="society.html" class="card">
+<div class="icon">🏠</div>
+<h3>Housing</h3>
+<p>Housing & Urban Planning</p>
+</a>
+
+<a href="healthcare.html" class="card">
+<div class="icon">🏥</div>
+<h3>Healthcare</h3>
+<p>Universal Medical Services</p>
+</a>
+
+<a href="education.html" class="card">
+<div class="icon">🎓</div>
+<h3>Education</h3>
+<p>Learning & Research</p>
+</a>
+
+<a href="water.html" class="card">
+<div class="icon">💧</div>
+<h3>Water</h3>
+<p>Dams & Water Security</p>
+</a>
+
+<a href="energy.html" class="card">
+<div class="icon">⚡</div>
+<h3>Energy</h3>
+<p>Electricity Infrastructure</p>
+</a>
+
+<a href="anticorruption.html" class="card">
+<div class="icon">🛡️</div>
+<h3>Anti-Corruption</h3>
+<p>Transparency & Oversight</p>
+</a>
+
+<a href="innovation.html" class="card">
+<div class="icon">🚀</div>
+<h3>Innovation</h3>
+<p>Research & Development</p>
+</a>
+
+<a href="organizations.html" class="card">
+<div class="icon">🏛️</div>
+<h3>Organizations</h3>
+<p>Creation & Monitoring System</p>
+</a>
+
+<a href="map.html" class="card">
+<div class="icon">🌐</div>
+<h3>Government Map</h3>
+<p>Explore Department Connections</p>
+</a>
+
+<a href="society.html" class="card">
+<div class="icon">🌍</div>
+<h3>Society</h3>
+<p>Life In The Future Civilization</p>
+</a>
+
+<a href="infrastructure.html" class="card">
+<div class="icon">🏗</div>
+<h3>Infrastructure</h3>
+<p>Roads, Rail, Ports & Smart Cities</p>
+</a>
+
+<a href="join.html" class="card">
+<div class="icon">🤝</div>
+<h3>Join The Movement</h3>
+<p>Become Part Of The New Order</p>
+</a>
+
+<a href="roadmap.html" class="card">
+
+<div class="icon">🗺️</div>
+
+<h3>Roadmap</h3>
+
+<p>
+See The Future Development Plan
+</p>
+
+</a>
+
+</section>
+
+<div class="section-divider"></div>
+
+<!-- MOVEMENT STATISTICS -->
+
+<section class="network">
+
+<h2>Movement Statistics</h2>
+
+<p class="network-subtitle">
+Live data from founding member applications.
+Updated automatically.
+</p>
+
+<div class="network-grid">
+
+<div class="network-card">
+<h3>👥 Supporters</h3>
+<p id="supporters">Loading...</p>
+</div>
+
+<div class="network-card">
+<h3>🌍 Countries</h3>
+<p id="countries">Loading...</p>
+</div>
+
+</div>
+
+<br><br>
+
+<h2>Occupations</h2>
+
+<div class="network-grid">
+
+<div class="network-card">
+<h3>🎓 Students</h3>
+<p id="students">0</p>
+</div>
+
+<div class="network-card">
+<h3>⚙ Engineers</h3>
+<p id="engineers">0</p>
+</div>
+
+<div class="network-card">
+<h3>👨‍🏫 Professors</h3>
+<p id="professors">0</p>
+</div>
+
+<div class="network-card">
+<h3>🚜 Farmers</h3>
+<p id="farmers">0</p>
+</div>
+
+<div class="network-card">
+<h3>🍎 Teachers</h3>
+<p id="teachers">0</p>
+</div>
+
+<div class="network-card">
+<h3>💼 Entrepreneurs</h3>
+<p id="entrepreneurs">0</p>
+</div>
+
+</div>
+
+<br><br>
+
+<h2>How People Found Us</h2>
+
+<div class="network-grid">
+
+<div class="network-card">
+<h3>📸 Instagram</h3>
+<p id="instagram">0</p>
+</div>
+
+<div class="network-card">
+<h3>🌐 Website</h3>
+<p id="website">0</p>
+</div>
+
+<div class="network-card">
+<h3>👥 Friends</h3>
+<p id="friends">0</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- DEPARTMENT NETWORK -->
+
+<div class="section-divider"></div>
+
+<section class="network">
+
+<h2>
+DEPARTMENT NETWORK
+</h2>
+
+<p class="network-subtitle">
+Every department works with others to solve problems.
+No organization operates alone.
+</p>
+
+<div class="network-grid">
+
+<div class="network-card">
+<h3>🍎 Food</h3>
+<p>Connected to Water, Energy and Infrastructure.</p>
+</div>
+
+<div class="network-card">
+<h3>💧 Water</h3>
+<p>Supports Food, Healthcare and Energy.</p>
+</div>
+
+<div class="network-card">
+<h3>⚡ Energy</h3>
+<p>Powers every department.</p>
+</div>
+
+<div class="network-card">
+<h3>🏥 Healthcare</h3>
+<p>Works with Education and Society.</p>
+</div>
+
+<div class="network-card">
+<h3>🎓 Education</h3>
+<p>Supports Innovation and Healthcare.</p>
+</div>
+
+<div class="network-card">
+<h3>🚀 Innovation</h3>
+<p>Improves all departments continuously.</p>
+</div>
+
+</div>
+
+</section>
+
+<div class="section-divider"></div>
+
+<section class="hero">
+
+<h2>The Core Principles</h2>
+
+<div class="network-grid">
+
+<div class="network-card">
+<h3>Truth</h3>
+<p>Decisions based on evidence and facts.</p>
+</div>
+
+<div class="network-card">
+<h3>Logic</h3>
+<p>Problems solved through reason and analysis.</p>
+</div>
+
+<div class="network-card">
+<h3>Solutions</h3>
+<p>Every problem deserves a practical solution.</p>
+</div>
+
+</div>
+
+</section>
+
+<div class="section-divider"></div>
+
+<section class="hero">
+
+<h2>Current Development Status</h2>
+
+<div class="network-grid">
+
+<div class="network-card">
+<h3>Manifesto</h3>
+<p>Completed</p>
+</div>
+
+<div class="network-card">
+<h3>Website</h3>
+<p>Version 1 Active</p>
+</div>
+
+<div class="network-card">
+<h3>Community</h3>
+<p>Growing</p>
+</div>
+
+<div class="network-card">
+<h3>Future Goal</h3>
+<p>
+Build A Global Problem-Solving Movement
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="hero">
+
+<h2>Movement Statistics</h2>
+
+<div class="network-grid">
+
+<div class="network-card">
+<h3>👥 Supporters</h3>
+<p>20+</p>
+</div>
+
+<div class="network-card">
+<h3>🌍 Countries Reached</h3>
+<p>3+</p>
+</div>
+
+<div class="network-card">
+<h3>📖 Manifesto</h3>
+<p>Available</p>
+</div>
+
+<div class="network-card">
+<h3>🚀 Project Status</h3>
+<p>Phase 2: Community Building</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>WORLD GOVERNMENT</h2>
+
+<p>
+A Conceptual Future Governance Explorer
+</p>
+
+<p>
+The New Order <br>
+Truth • Logic • Solutions <br>
+thenewordercsm@gmail.com <br>
+</p>
+<p>
+Instagram:
+<a href="https://www.instagram.com/thenewordercsm/"
+target="_blank">
+@thenewordercsm
+</a>
+</p>
+
+<p>
+Email:
+thenewordercsm@gmail.com
+</p>
+
+<a href="#" class="hero-btn">
+💝 Support the Movement
+</a>
+
+</footer>
+
+<script>
+
+fetch("https://script.google.com/macros/s/AKfycbzSZxrw-bDvVFn47aUP_7TPpmQyhVxVDT6qMlIxx78fQJkFeRqKDWIi2Kwc3X3LExkk/exec")
+
+.then(response => response.json())
+
+.then(data => {
+
+document.getElementById("supporters").innerText =
+data.supporters;
+
+document.getElementById("countries").innerText =
+data.countries;
+
+document.getElementById("students").innerText =
+data.occupations.Student || 0;
+
+document.getElementById("engineers").innerText =
+data.occupations.Engineer || 0;
+
+document.getElementById("professors").innerText =
+data.occupations.Professor || 0;
+
+document.getElementById("farmers").innerText =
+data.occupations.Farmer || 0;
+
+document.getElementById("teachers").innerText =
+data.occupations.Teacher || 0;
+
+document.getElementById("entrepreneurs").innerText =
+data.occupations.Entrepreneur || 0;
+
+document.getElementById("instagram").innerText =
+data.discovery.Instagram || 0;
+
+document.getElementById("website").innerText =
+data.discovery.Website || 0;
+
+document.getElementById("friends").innerText =
+data.discovery.Friend || 0;
+
+});
+
+</script>
+<script>
+
+fetch("https://ipapi.co/json/")
+.then(r=>r.json())
+.then(location=>{
+
+fetch("https://script.google.com/macros/s/AKfycbw8JWZMuE84cFtIvBP8fnqZR7eq82YiQMXLKyKa7oT7Eh6DIJAll822JsyN26loh-E/exec",{
+
+method:"POST",
+
+body:JSON.stringify({
+country:location.country_name
+})
+
+});
+
+});
+
+</script>
+</body>
+</html>
