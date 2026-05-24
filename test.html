@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Total Visitors</h2>
+<p id="visitors">Loading...</p>
+
+<script>
+
+fetch("https://script.google.com/macros/s/AKfycbw8JWZMuE84cFtIvBP8fnqZR7eq82YiQMXLKyKa7oT7Eh6DIJAll822JsyN26loh-E/exec")
+.then(r => r.json())
+.then(data => {
+
+console.log(data);
+
+document.getElementById("visitors").innerText =
+data.totalVisitors;
+
+});
+
+</script>
+
+</body>
+</html>
